@@ -1,0 +1,10 @@
+person:
+  name: xiaohong
+  age: 18
+  aaa: Beijing
+
+spring:
+  thymeleaf:
+    mode: HTML5
+
+
