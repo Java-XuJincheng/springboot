@@ -6,5 +6,12 @@ person:
 spring:
   thymeleaf:
     mode: HTML5
+  profiles:
+    active: prod
+
+logback:
+  logdir: /var/springboot/pro/log
+
+
 
 
