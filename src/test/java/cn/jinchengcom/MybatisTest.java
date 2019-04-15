@@ -20,6 +20,6 @@ public class MybatisTest {
     @Test
     public void test(){
         List<User> users = userMapper.queryUserList();
-        System.out.println(users);
+        System.out.println(users+"11");
     }
 }

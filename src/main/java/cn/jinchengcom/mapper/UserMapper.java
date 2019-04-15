@@ -8,5 +8,6 @@ import java.util.List;
 @Mapper
 public interface UserMapper {
     public List<User> queryUserList();
+    public List<User> queryUserMsg(String username);
 
 }

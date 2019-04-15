@@ -5,4 +5,8 @@
     <select id="queryUserList" resultType="user">
         select * from user
     </select>
+
+    <select id="queryUserMsg" resultType="user" parameterType="String">
+        select * from user where username=#{username};
+    </select>
 </mapper>

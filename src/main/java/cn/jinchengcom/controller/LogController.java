@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class LogController {
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    private static final  Logger logger = LoggerFactory.getLogger(LogController.class);
 
     @RequestMapping("/log")
     @ResponseBody

@@ -7,7 +7,7 @@ spring:
   thymeleaf:
     mode: HTML5
   profiles:
-    active: prod
+    active: dev
 
 logback:
   logdir: /var/springboot/pro/log
