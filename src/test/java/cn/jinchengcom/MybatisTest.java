@@ -21,5 +21,6 @@ public class MybatisTest {
     public void test(){
         List<User> users = userMapper.queryUserList();
         System.out.println(users+"11");
+
     }
 }
